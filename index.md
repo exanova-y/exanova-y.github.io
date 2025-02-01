@@ -1,7 +1,5 @@
 ---
 layout: home
 ---
-# Welcome
 
-Hello World. Hello Friend.
-
+"Levy flights in polymathy forests"

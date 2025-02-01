@@ -2,22 +2,33 @@
 title: about
 layout: page
 ---
-## Modo nostra
+## About
 
-Lorem markdownum mihi; hic sonantem tenebat telum successu mollierant inani
-avoque. Harena et laedor bisque moenia veniat facit lebetes tum non?
+Yoyo Yuan is a CS undergraduate at [Minerva University](https://minerva.edu),  currently upskilling in engineering. In the past, Yoyo has explored quantum simulations, swarm intelligence, and brain-computer interfaces. Spawned in Shenzhen, lived in Waterloo, inhabiting the cybernetic dynamic medium for 19 years. 
 
-> Iunctissima lapsus illis; venit protervis exequialia absit tristia et
-> **locum** cum ut ad convertor tamen. Ad mea cui! Pedibus sit inque quaerit [ac
-> eadem](http://clamavit.io/), quid, aurum quam videt ille. Aiax harenam, et
-> salices equos, captis, Iovis.
+**Favourites**
+- Lightforest, the geek diaspora glows brightly (2023)
 
-## Cumque ardor
+**2nd-favourites**:
+- A thousand echoes (2024)
+- Underground dynamics (2024)
+- Insomnia experience (2023)
+- Wallcrack street journal (2021)
+- Absolutely 100% objectively speaking (2020)
 
-Suspiria seque sui quot, stare non profuso adsensere ignibus. Nata nomen rude
-veniam. Colore alta avido, relicta obnoxia vivosque Ereboque animosque meae,
-festas, Cythereia tu stare scitusque. Indefessus urbes eodem tuo liceat dives
-Telamonius nobis aetheriae, illam, in heu idemque **an**.
+**I like your work, how can I help?**
+- Intros, send cool reads and neat internships!!
+
+[Portfolio](https://docs.google.com/document/d/11es3lrZV0dEF6OgHVTG-lii0FQ9GU2DrUU7NM-GLHnY/edit?usp=sharing)
+[Resume](https://docs.google.com/document/d/1S4rKJhW0oY3o0zlGd1sHLarkB84-2PIZaW_lOl2lv2U)
+
+**Contact**
+- Email: yoyoyuan1729 at google mail.
+- Telegram: https://t.me/indiraschka
+- X: https://x.com/indiraschka
+
+> "A stranger in every universe" - Friend, describing me.
+
 
     key(gigabyteHoverClick - kilohertz, latencyPad);
     process_password(heap_barcraft_file(matrix - dos_icio_blacklist,
