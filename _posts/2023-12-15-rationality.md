@@ -1,66 +1,68 @@
 ---
 layout: post
 title: 'Wind: A Minimalistic, Simple, and Beautiful Blogging Theme'
-image: /assets/images/example4.jpg
+image: /assets/images/discourse.png
 tags:
-  - theme
-  - documentation
+  - fiction
+  - rationality
+  - writing
+author: Yoyo, GPT-4
 ---
-If you like it please think on supporting my job:
 
-<a href="https://www.buymeacoffee.com/achacon" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+## Skateboarding rationality
 
-![Theme Logo or Screenshot](https://i.postimg.cc/PqYsQX71/Wind-Write-an-awesome-description-for-your-new-site-here-You-can-edit-this-line-in-config-yml-It.png)
+The clock ticked closer to 2 a.m. Clusters of sleep-deprived attendees dashed about, some clutching laptops, others discussing GANs with the intensity of caffeinated philosophers. Someone’s holographic demo malfunctioned nearby, projecting spinning memecoins into the air above them.
 
-## Description
+Isaak sat atop a crate labelled “DO NOT TOUCH: FRAGILE” with a crumpled bag of chips. Popping an energy drink, Isaak waved a hand. “This is dedication.”
 
-Wind is a clean, minimalistic Jekyll theme designed to offer a delightful blogging experience. With a focus on simplicity and aesthetics, Wind brings an elegant touch to your blog or personal website.
+“It’s called mania,” Euan corrected, frowning as he adjusted his glasses. “And for the record, Isaak, that’s your third energy drink. Kindly refrain from lecturing me about dedication while you’re on the precipice of a caffeine-induced implosion.”
 
-## Sites Using It (If you have a site using this theme please send me a PR including it here)
+Someone wheeled over a cart of leftover conference swag, including tote bags, keychains, and half-empty bottles of nootropic-infused water. Arsenii grabbed a bottle, proclaiming it “fuel for innovation,” and promptly chugged it. His pupils dilated noticeably as he began arguing with a noticeably Russian accent.
 
-- <https://estabien.cl>
+“This is why we can’t have nice things,” Euan said, watching in disbelief.
 
-## Table of Contents
+Isaak waved his arms dramatically. “Do you think Oppenheimer slowed down when he built the atomic bomb? Did Turing wait for perfect conditions? No. They changed the world because they acted.”
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+“And let us not gloss over the less-than-ideal aftermath of those actions,” Euan replied. “You keep using historical examples to justify your recklessness, but you ignore the costs.”
 
-## Features
+Bradley threw his hands in the air. “There are always costs! You just have to decide which ones you’re willing to pay.”
 
-1. **Responsive Design:** Wind offers a thoughtfully crafted responsive design that ensures your blog looks stunning and functions flawlessly on a variety of devices, including desktops, tablets, and smartphones. Your content remains accessible and visually appealing, no matter how your audience chooses to engage with it.
+Arsenii and Euan had drifted slightly away from the main group, their conversation taking on a quieter but no less intense energy.
 
-2. **Blog-Centric Focus:** Wind is tailored for bloggers, putting the spotlight on your content. Its clean and minimalistic design highlights your articles, providing readers with an uncluttered and immersive reading experience.
+They leaned against a display table labeled “Predictive Models in Healthcare,” which had been temporarily abandoned, much like the thread of their own lives during this surreal night.
 
-3. **Tags Page:** Easily categorize and organize your blog posts using tags. Wind includes a dedicated Tags page that allows your readers to find and explore posts by tag, making content discovery and navigation a breeze.
+“So,” Euan said, his voice steady but tinged with curiosity, “you’re saying you’ve exhausted the rationality community? That’s… rather audacious.”
 
-4. **Disqus Integration:** Engage with your audience through the built-in Disqus commenting system. Enable discussions on your blog posts to encourage interaction, receive feedback, and foster a sense of community.
+Arsenii shrugged with a flair that made his statement seem both obvious and absurd at the same time. “I mean, how many Bayesian updates can one person do before it’s all the same? You read the books, attend the camps, meditate on your priors, and then what? You find yourself optimizing for how to get the most calories out of a bag of rice? It’s boring.”
 
-5. **Customizable Head Section:** Wind empowers you to customize the theme's `<head>` section, enabling you to insert various scripts, such as Google Analytics, social media meta tags, or any other third-party integrations you require to enhance your website's functionality and insights.
+Euan adjusted his glasses, raising an eyebrow. “Boring? Rationality isn’t created to be exciting—it’s a framework for improving cognitive clarity and decision-making.”
 
-6. **Dark Mode:** Wind provides a dark mode feature, allowing readers to switch to a more comfortable reading experience in low-light conditions. Enhance accessibility and cater to different user preferences effortlessly.
+“That’s the problem!” Arsenii exclaimed, his hands sweeping wide and nearly knocking over a nearby demo. “It’s all thinking! No doing! How many times can we debate Pascal’s Mugging before we realize no one is getting mugged by the universe? We need action. Tangibility. Something real.”
 
-7. **Go Up Button:** Enhance user navigation with the "Go Up" button. This feature enables users to quickly return to the top of the page, offering a convenient and user-friendly browsing experience.
+Euan tilted his head slightly, his expression a perfect mix of skepticism and amusement. “So your answer is… fintech?”
 
-8. **Social Media Integration:** Seamlessly link your social media profiles to your blog, making it simple for your readers to connect with you on various platforms. Enhance your online presence and grow your social media following by leveraging Wind's integrated social media links.
+“Fintech!” Arsenii declared, his Russian accent thickening slightly in his enthusiasm. “Fast money, real stakes, no pretentious ethical dilemmas about paperclips taking over the world.”
 
-9. **SEO Optimized:** Wind is designed with search engine optimization (SEO) in mind. Its clean code, structured metadata, and user-friendly URL structure help improve your blog's visibility on search engines, driving organic traffic to your site.
+Euan folded his arms, his calm demeanor unshaken. “You are aware, I trust, that fintech is just rationality applied to capitalism? It’s spreadsheets and algorithms, not exactly skydiving.”
 
-10. **Cross-Browser Compatibility:** Ensure your blog looks and performs consistently across a wide range of web browsers, providing an optimal experience for all visitors.
+Arsenii leaned in, his voice dropping conspiratorially. “But it’s *spreadsheets that matter, Euan. Money moves the world. You can run all the rationality workshops you want, but in the end, someone has to figure out how to optimize loan repayment models. That’s real impact.”
 
-11. **Accessibility Features:** Wind adheres to accessibility best practices, ensuring that your content is accessible to users with disabilities. This inclusivity enhances the reach and usability of your blog.
+Euan smirked, clearly enjoying the banter. “So you’re saying you’d rather optimize capitalism than humanity? Bold move.”
 
-12. **RSS Feed Support:** Wind includes RSS feed support, allowing your readers to subscribe to your blog and receive updates when new content is published.
+“Yes!” Arsenii said with a dramatic point, as if he were delivering the final line of a Shakespearean monologue. “Because capitalism works. It’s messy and flawed, but it moves. Rationality camps? They’re like a treadmill for your brain. You go nowhere, but you feel exhausted.”
 
-13. **Author Profile:** Personalize your blog by adding an author profile section, allowing you to share information about yourself and connect with your audience on a more personal level.
 
-## Installation
+Euan laughed, shaking his head. “You’re incredible. You go to rationality camps, claim you’ve outgrown them, and then decide fintech is the answer? That’s like completing a marathon and declaring, ‘You know what I need? A skateboard.’”
 
-To use the Wind Jekyll theme as a Ruby Gem in your Jekyll site, follow these steps:
+“Exactly!” Arsenii said, entirely missing the sarcasm. “A skateboard goes faster. Why run when you can glide?”
+
+Euan opened his mouth to respond but then paused. “You know what? I almost envy you. You manage to frame every life decision into performance art.”
+
+Arsenii grinned, clearly pleased with himself. “That’s because life is art, my dear Euan. And I plan to monetize mine.”
+
+“Good luck with that,” Euan said, shaking his head but smiling. “Just don’t forget to meditate on your priors before your first quarterly review.”
+
+Arsenii waved him off, already spinning a half-formed fintech idea in his head. “Please, I’ve got this. Meditation is for when you’re not winning.”
 
 1. **Add Wind Gem to your Gemfile:** Open your Jekyll project's `Gemfile` and add the following line to the `jekyll_plugins` group:
 
