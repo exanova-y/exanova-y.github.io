@@ -1,21 +1,21 @@
-domain: example.com
-url: https://example.com
-baseurl: "/wind"
+domain: exanova-y.github.io
+url: https://exanova-y.github.io
+baseurl: "/hi"
 
-title: Wind
-email: wind@example.com
-author: Wind Sample
+title: Cybernetic dynamic medium
+email: yoyoyuan1729@gmail.com
+author: Yoyo Yuan
 
 lang: en
 
 plugins:
   - jekyll-seo-tag
 
-color: "#13ccf9"
+color: "#710bef"
 # disqus:
 #   shortname: example-com
 #
 rrss:
-  email: "example@example.cl"
-  telegram: "https://t.me/"
-  discord: "https://discord.com/"
+  email: "yoyoyuan1729@gmail.com"
+  telegram: "https://t.me/indiraschka"
+  x: "https://x.com/indiraschka"
