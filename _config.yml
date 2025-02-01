@@ -2,7 +2,7 @@ domain: exanova-y.github.io
 url: https://exanova-y.github.io
 baseurl: "/hi"
 
-title: Cybernetic dynamic medium
+title: indiraschka@comonad ~ %
 email: yoyoyuan1729@gmail.com
 author: Yoyo Yuan
 
@@ -11,7 +11,7 @@ lang: en
 plugins:
   - jekyll-seo-tag
 
-color: "#710bef"
+color: "#a635fe"
 # disqus:
 #   shortname: example-com
 #
