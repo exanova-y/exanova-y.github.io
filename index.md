@@ -2,4 +2,5 @@
 layout: home
 ---
 
-"Levy flights in polymathy forests"
+✻   
+Projects and writings
