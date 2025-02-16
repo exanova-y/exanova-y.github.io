@@ -1,0 +1,20 @@
+<div id="random-quote"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const quotes = [
+      "A stranger in every universe - friend, describing me",
+      "The free monad monad is a module over the cofree comonad comonad",
+      "levy flights in polymathy forests",
+      "Today the environment only took 10 mins to set up, Three weeks ago, it took 2 hours - me",
+      "I want to turn you into a cat and shield you from the world forever - One friend to another.",
+      "I hope I wasn't too quotable - friend.",
+      "Today when you ate lunch, you swallowed a distant relative - biologist",
+      "Grateful for my dearest outliers; for @InquilineKea flying across the sky, time-heater provided by @bmorphism, blatant honesty from @amplifiedamp, paper stash from @lu_sichu and skepticism from many more"
+    ];
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById('random-quote').innerHTML = `<em>${randomQuote}</em>`;
+  });
+</script>
+
+
+

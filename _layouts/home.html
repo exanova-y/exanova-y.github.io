@@ -1,0 +1,63 @@
+---
+layout: base
+---
+<div class="flex justify-center py-8">
+  <article class="text-center prose prose-p:font-extralight prose-slate dark:prose-invert primary-underline">
+    {{ content }}
+  </article>
+</div>
+
+
+<!-- Posts Grid -->
+<div class="w-11/12 md:w-4/5 mx-auto columns-1 md:columns-3 gap-6 mb-10">
+  {% assign all_posts = site.posts | reject: "tags", "personal" | sort: 'date' | reverse %}
+  {% for post in all_posts %}
+  <div class="break-inside-avoid-column mb-6 post-item" data-tags="{{ post.tags | join: ' ' }}">
+    <div class="hover:underline hover:decoration-2 hover:underline-offset-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300">
+      <a href="{{ post.url | relative_url }}">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img src="{{ post.image | relative_url }}" alt="" class="w-full h-full object-cover shadow-md">
+        </div>
+        <h3 class="text-lg md:text-xl pt-3">{{post.title}}</h3>
+      </a>
+    </div>
+    <div class="pt-2">
+      {% for tag in post.tags limit:3 %}
+      <span class="text-xs text-slate-700 dark:text-slate-100/80 align-middle">#{{tag}}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+function filterPosts(category) {
+  // Remove hover state from all buttons
+  document.querySelectorAll('button').forEach(btn => {
+    btn.classList.remove('text-slate-600', 'dark:text-slate-300');
+  });
+  
+  // Add hover state to clicked button
+  event.target.closest('button').classList.add('text-slate-600', 'dark:text-slate-300');
+
+  // Show/hide posts based on category
+  document.querySelectorAll('.post-item').forEach(post => {
+    if (category === 'all' || post.dataset.tags.includes(category)) {
+      post.style.display = '';
+    } else {
+      post.style.display = 'none';
+    }
+  });
+}
+
+// Show all posts by default
+document.addEventListener('DOMContentLoaded', function() {
+  filterPosts('all');
+});
+</script>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <a href="https://hits.seeyoufarm.com">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fexanova-y.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false"/>
+  </a>
+</div>

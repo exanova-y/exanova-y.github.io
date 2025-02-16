@@ -1,0 +1,21 @@
+domain: exanova-y.github.io
+url: https://exanova-y.github.io
+baseurl: ""
+
+title: indiraschka@comonad ~ %
+email: yoyoyuan1729@gmail.com
+author: Yoyo Yuan
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+color: "#a635fe"
+# disqus:
+#   shortname: example-com
+#
+rrss:
+  email: "mailto:yoyoyuan1729@gmail.com?subject=I%20spawned%20on%20your%20website&body=Say%20hi%2C%20send%20papers%2C%20collaboration%20ideas%20(replace%20with%20whatever%20you%20want)"
+  telegram: "https://t.me/indiraschka"
+  x: "https://x.com/indiraschka"
