@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: page
 ---
 
 ✻   
-Welcome to my site in progress!   
+Computer exploded and site is broken. Please come back after 3 days. - feb 16 2025
 Projects, writings, notes  
