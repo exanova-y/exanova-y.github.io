@@ -4,7 +4,7 @@ layout: page
 ---
 
 ### **Fav posts?**   
-Topical: [Quantum simulation platforms review](2021/09/01/quantum.html), [Intro to Brain-Computer Interfaces series](2022/07/10/bci.html), 10 significant philosophers website.
+Topical: [Quantum simulation platforms review](2021/09/01/quantum.html), [Intro to Brain-Computer Interfaces series](2022/07/10/bci.html), [10 significant philosophers website](https://readymag.website/yoyo/4191679/)
 
 Fiction: [Lightforest](2024/02/22/lightforest.html), [Underground dynamics](2024/05/24/underground.html)   
 
