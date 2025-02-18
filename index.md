@@ -1,7 +1,3 @@
 ---
 layout: featured
 ---
-
-# Welcome
-
-hi.
