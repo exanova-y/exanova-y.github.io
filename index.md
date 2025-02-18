@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: featured
 ---
 
-✻   
-Computer exploded and site is broken. Please come back after 3 days - Feb 16 2025
+# Welcome
+
+hi.

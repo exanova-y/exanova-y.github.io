@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
-
 
 @layer base {
   body {
-    font-family: 'OpenSans', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   h1,
@@ -16,7 +14,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Adamina', serif;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   /* Left align bullet points */
@@ -59,7 +57,7 @@
 
 /* Footer styles */
 footer {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto Flex', sans-serif;
 }
 
 .fadeIn {
@@ -126,7 +124,7 @@ footer {
   /* Muestra el overlay */
 }
 .cutive-regular {
-  font-family: "Cutive", serif;
+  font-family: 'Roboto Flex', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
