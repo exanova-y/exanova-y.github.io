@@ -41,10 +41,6 @@
   background: white;
 }
 
-[data-theme="dark"] .featured-posts .post-item {
-  background: #1a1b26;
-  border: 1px solid #2f334d !important;
-}
 
 .featured-posts .post-item:hover {
   transform: translateY(-4px);
@@ -58,9 +54,6 @@
   color: #7980eb;
 }
 
-[data-theme="dark"] .featured-posts .post-item p {
-  color: #a9b1d6;
-}
 
 .featured-posts .tags {
   display: flex;
