@@ -12,7 +12,7 @@ layout: base
         <article class="post-item bg-white dark:bg-gray-800 border border-purple-200 dark:border-white/20 rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-200">
           {% if post.image %}
             <div class="post-image">
-              <img src="{{ post.image | media_url }}" alt="{{ post.title }}" class="w-full h-48 object-cover rounded-lg mb-3">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full h-48 object-cover rounded-lg mb-3">
             </div>
           {% endif %}
           <h3 class="text-xl font-bold mb-2">
