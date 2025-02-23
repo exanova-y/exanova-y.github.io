@@ -20,9 +20,9 @@ Alife, complex intelligence, cognitive science.
 {% include quotes.html %}
 
 ## Occasionally asked questions
-- My strongest influences: Nicky Case, Surely You’re Joking, Mr. Feynman, the Genius trilogy, Friendship is optimal: Caelum est conterrens.
+- My strongest influences: Nicky Case, Surely You’re Joking, Mr. Feynman, the Genius trilogy, Friendship is optimal: Caelum est conterrens, 'Acquired' podcast.
 
-- "Yoyo, I can't read your mind." Here's an (old) [page](https://exanova.notion.site/Say-hi-Web-950b46ad5da24f50935bd20814f04c23?pvs=4) about being friends or collaborating with me.
+- "Yoyo, I can't read your mind. Please communicate directly." Here's an (old) [page](https://exanova.notion.site/Say-hi-Web-950b46ad5da24f50935bd20814f04c23?pvs=4) about being friends or collaborating with me.
 
 - [List of 100 questions](https://exanova.notion.site/List-of-100-questions-3b0c8abd422b461a834f932004a5e298?pvs=4). Thank you for the answer_to_yoyo_questions.pdf
 
@@ -32,10 +32,10 @@ Alife, complex intelligence, cognitive science.
 
 - Media. Living proof: stories of resilience along the mathematical journey. Linus Pauling biography. Shape of a life.
 
-- Lucky charms 🍀 Jensen Huang, Juergen Schmidhuber, Kenneth Stanley, Lisa Su, Fei-Fei Li, Joscha Bach, Jean Piaget, John Conway, Vladimir Nabokov
+- Lucky charms 🍀 Jensen Huang, Paul Erdos, Juergen Schmidhuber, Kenneth Stanley, Lisa Su, Fei-Fei Li, Joscha Bach, Jean Piaget, John Conway, Vladimir Nabokov
 
 - Sites. Curius, cyborgism.wiki, quanta magazine.
 
-- Blogs I read. Shtetl optimized, Gwern, Alexey Guzey, Esther is a confused human being, Alex K Chen quora, Yuxi on the Wired, Juan Vera, Yufei Xiao.
+- Blogs I read. Shtetl optimized, Gwern, Kipply Chen, Alexey Guzey, Esther is a confused human being, Alex K Chen quora, Yuxi on the Wired, Juan Vera, Yufei Xiao.
 
-- Articles by others: Review of going infinite by Zvi. Take your time by Nicky Case. Idol Words by Scott Alexander. 
+- Articles by others: Review of going infinite by Zvi. Take your time by Nicky Case. Idol Words by Scott Alexander. Jia-bin Huang advice.
