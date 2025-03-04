@@ -30,3 +30,31 @@ layout: base
     {% endfor %}
   </div>
 </div>
+
+<div class="featured-posts">
+  <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Small Hacks</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {% for post_file in site.data.small_hacks.posts %}
+      {% assign post = site.posts | find: "name", post_file %}
+      {% if post %}
+        <article class="post-item bg-white dark:bg-gray-800 border border-purple-200 dark:border-white/20 rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-200">
+          {% if post.image %}
+            <div class="post-image">
+              <img src="{{ post.image | media_url }}" alt="{{ post.title }}" class="w-full h-48 object-cover rounded-lg mb-3">
+            </div>
+          {% endif %}
+          <h3 class="text-xl font-bold mb-2">
+            <a href="{{ post.url | relative_url }}" class="text-gray-800 hover:text-purple-800 dark:text-white dark:hover:text-white/80">{{ post.title }}</a>
+          </h3>
+          {% if post.tags %}
+            <div class="tags">
+              {% for tag in post.tags %}
+                <span class="tag bg-purple-100 dark:bg-white/10 text-purple-800 dark:text-white px-3 py-1 rounded-full text-sm font-medium">#{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
