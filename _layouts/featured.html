@@ -32,7 +32,7 @@ layout: base
 </div>
 
 <div class="featured-posts">
-  <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Small Hacks</h2>
+  <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Small hacks</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {% for post_file in site.data.small_hacks.posts %}
       {% assign post = site.posts | find: "name", post_file %}
