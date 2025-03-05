@@ -41,8 +41,8 @@ jobs:
         run: |
           git lfs install
           git lfs pull
-          find . -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.jpeg" | xargs -I{} cp --preserve=timestamps {} {}.tmp
-          find . -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.jpeg" | xargs -I{} mv {}.tmp {}
+          find . -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.jpeg" -o -name "*.pdf" | xargs -I{} cp --preserve=timestamps {} {}.tmp
+          find . -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.webp" -o -name "*.jpeg" -o -name "*.pdf" | xargs -I{} mv {}.tmp {}
           
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.146.0
