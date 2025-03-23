@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Claude or kè láo dé? Language info-density analyses
+title: Claude thinking in Chinese! 
 date: 2025-02-28
 author: Ricardo Skewes, Yoyo Yuan, Lucas Chu
 tags:
     - language
     - data analysis
+    - ML
+
+
 image: /assets/images/deepseek_token_usage.png
 ---
 
