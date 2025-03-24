@@ -4,7 +4,6 @@ layout: base
 
 <div class="featured-posts">
   <h2 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Favourite posts!</h2>
-  <body>site is being updated! need to fix dark mode</body>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {% for post_file in site.data.featured.posts %}
       {% assign post = site.posts | find: "name", post_file %}

@@ -1,0 +1,118 @@
+/* Dark mode styles */
+:root {
+  --bg-light: #f8fafc;
+  --text-light: #1a1a1a;
+  --bg-dark: #000000;
+  --text-dark: #ffffff;
+  --link-dark: #a274f0;
+}
+
+/* Light mode (default) */
+body {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h5 {
+  color: var(--text-light);
+}
+
+/* Dark mode */
+.dark body {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Header/Navigation */
+nav {
+  background-color: var(--bg-light);
+  transition: all 0.3s ease;
+}
+
+.dark nav {
+  background-color: var(--bg-dark);
+}
+
+.dark nav h5 {
+  color: var(--text-dark);
+}
+
+/* Links */
+.dark a {
+  color: var(--text-dark);
+}
+
+.dark a:hover {
+  color: var(--text-dark);
+}
+
+/* Headers */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: var(--text-dark);
+}
+
+/* Code blocks */
+.dark pre, .dark code {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Blockquotes */
+.dark blockquote {
+  border-left-color: var(--bg-dark);
+  background-color: var(--bg-dark);
+}
+
+/* Tables */
+.dark table th,
+.dark table td {
+  border-color: var(--link-dark);
+}
+
+.dark table th {
+  background-color: var(--bg-dark);
+}
+
+.dark table tr:nth-child(even) {
+  background-color: var(--bg-dark);
+}
+
+/* Custom elements */
+.dark .page-link {
+  color: var(--text-dark);
+}
+
+.dark .page-link:hover {
+  color: var(--text-dark);
+}
+
+/* Posts and Cards */
+.dark .post-item {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.dark .post-item img {
+  border: 1px solid var(--text-dark);
+}
+
+.dark .post-item h3 {
+  color: var(--text-dark);
+}
+
+/* Cards */
+.dark .card {
+  background-color: var(--bg-dark);
+  border-color: var(--text-dark);
+  color: var(--text-dark);
+}
+
+/* Moon/Sun icons */
+#moon-icon, #moon-icon-mobile {
+  color: var(--text-dark);
+}
+
+#sun-icon, #sun-icon-mobile {
+  color: #fbbf24;
+}

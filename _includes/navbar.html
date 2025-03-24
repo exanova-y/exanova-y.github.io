@@ -113,64 +113,57 @@
 </script>
 
 <script>
-  // Desktop version
   const darkModeToggle = document.getElementById('darkModeToggle');
   const sunIcon = document.getElementById('sun-icon');
   const moonIcon = document.getElementById('moon-icon');
   const html = document.documentElement;
-  let isDarkMode = false;
+
+  // Initialize dark mode state from localStorage or system preference
+  let isDarkMode = localStorage.getItem('darkMode') === 'dark' || 
+                   (localStorage.getItem('darkMode') === null && 
+                    window.matchMedia('(prefers-color-scheme: dark)').matches);
 
   // Function to toggle dark/light mode
   function toggleDarkMode() {
     isDarkMode = !isDarkMode;
+    applyTheme();
+  }
+
+  // Function to apply the current theme
+  function applyTheme() {
     html.classList.toggle('dark', isDarkMode);
     sunIcon.style.display = isDarkMode ? 'none' : 'block';
     moonIcon.style.display = isDarkMode ? 'block' : 'none';
-    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light'); // Store user preference
+    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light');
+    
+    // Sync mobile icons
+    if (sunIconMobile && moonIconMobile) {
+      sunIconMobile.style.display = isDarkMode ? 'none' : 'block';
+      moonIconMobile.style.display = isDarkMode ? 'block' : 'none';
+    }
   }
 
-  // Add a click event listener to the toggle button
+  // Add click event listener to the toggle button
   darkModeToggle.addEventListener('click', toggleDarkMode);
 
-  // Check the user's preference and apply it on page load
-  const savedMode = localStorage.getItem('darkMode');
-  if (savedMode === 'dark') {
-    html.classList.add('dark');
-    sunIcon.style.display = 'none';
-    moonIcon.style.display = 'block';
-  } else {
-    html.classList.remove('dark');
-    sunIcon.style.display = 'block';
-    moonIcon.style.display = 'none';
-  }
-
-  // Mobile version (using the same storage key as desktop)
+  // Mobile version
   const modeToggleMobile = document.getElementById('modeToggleMobile');
   const sunIconMobile = document.getElementById('sun-icon-mobile');
   const moonIconMobile = document.getElementById('moon-icon-mobile');
-  const htmlMobile = document.documentElement;
 
-  // Function to toggle dark/light mode for mobile
-  function toggleDarkModeMobile() {
-    isDarkMode = !isDarkMode; // Use the same isDarkMode variable as desktop
-    htmlMobile.classList.toggle('dark', isDarkMode);
-    sunIconMobile.style.display = isDarkMode ? 'none' : 'block';
-    moonIconMobile.style.display = isDarkMode ? 'block' : 'none';
-    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light'); // Use the same storage key as desktop
+  // Add click event listener to the mobile toggle button
+  if (modeToggleMobile) {
+    modeToggleMobile.addEventListener('click', toggleDarkMode);
   }
 
-  // Add a click event listener to the mobile toggle button
-  modeToggleMobile.addEventListener('click', toggleDarkModeMobile);
+  // Apply theme on page load
+  applyTheme();
 
-  // Check the user's preference and apply it on page load for mobile
-  const savedModeMobile = localStorage.getItem('darkMode');
-  if (savedModeMobile === 'dark') {
-    htmlMobile.classList.add('dark');
-    sunIconMobile.style.display = 'none';
-    moonIconMobile.style.display = 'block';
-  } else {
-    htmlMobile.classList.remove('dark');
-    sunIconMobile.style.display = 'block';
-    moonIconMobile.style.display = 'none';
-  }
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    if (localStorage.getItem('darkMode') === null) {
+      isDarkMode = e.matches;
+      applyTheme();
+    }
+  });
 </script>

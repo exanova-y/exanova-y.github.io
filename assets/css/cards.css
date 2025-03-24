@@ -3,13 +3,19 @@
 @tailwind utilities;
 
 .card {
-  @apply relative bg-white rounded-3xl p-6 shadow-lg overflow-hidden;
+  @apply relative bg-white p-6 shadow-lg overflow-hidden;
   border: 2px solid black;
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dark mode for cards */
+.dark .card {
+  background-color: #000000;
+  border-color: #ffffff;
 }
 
 .card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
 }
 
 .card-header {
@@ -50,7 +56,7 @@
 }
 
 .card-image {
-  @apply w-full h-48 object-cover rounded-xl mb-4;
+  @apply w-full h-48 object-cover mb-4;
 }
 
 .brand {
