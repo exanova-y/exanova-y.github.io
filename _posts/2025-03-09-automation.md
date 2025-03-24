@@ -13,4 +13,4 @@ tags:
 
 I worked on speaker identification and diarization.
 
-[Video](https://www.youtube.com/live/ukTQjeXFn3c?t=6448s)
+[Video](https://www.youtube.com/live/ukTQjeXFn3c)
